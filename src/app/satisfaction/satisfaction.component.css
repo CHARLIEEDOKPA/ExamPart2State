@@ -1,0 +1,20 @@
+input[type=text] {
+    border: 2px solid;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+input[type=text].ng-invalid {
+    border-color: red;
+}
+
+p {
+    text-align: center;
+    font-size: 250px;
+    height: 260px;
+}
